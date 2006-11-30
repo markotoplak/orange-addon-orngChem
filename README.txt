@@ -4,6 +4,7 @@ fragmenter.py
 	-s file		(specifies an input file(default "smiles.tab") containing SMILES codes. Can be a tab delim. file
 			with SMILES as a second column or a simple txt file containg SMILES string
 			seperated with newline)
+	-a attrName	(the name of the attribute that contains the smiles codes in the input file)
 	-o file		(specifies an output file (default "fragments.txt") where it will print one fragment code per line)
 	-f freq		(specifies the required frequency for the fragments (default 0.4))
 	Example:
@@ -14,7 +15,8 @@ fragment_mapper.py
 	tab delim. file specifying the 	number of  times a fragment is matched in each chemical.
 	Arguments:
 	-s file		(specifies an input file (default "smiles.tab") containing SMILES codes. Must be a tab delim. file
-			with SMILES as second column)
+			with SMILES as second column or a column specified by -a attrName)
+	-a attrName	(the name of the attribute that contains the smiles codes in the input file)
 	-f file		(specifies an input file (default "fragments.txt") containing fragment codes seperated by newlines)
 	-o file		(specifies an output file (default "fragmentmap.tab"))
 	-b		(if present the output file will only contain values 0 or 1 indicating the presence of a fragment
