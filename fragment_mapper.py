@@ -28,7 +28,7 @@ vars=[orange.FloatVariable(frag) for frag in fragments]
 mid=orange.newmetaid()
 cvar=orange.StringVariable("chemical")
 vars=smilesData.domain.attributes+vars+(smilesData.domain.classVar and [smilesData.domain.classVar] or [])
-print vars
+
 domain=orange.Domain(vars,0)
 domain.addmetas(smilesData.domain.getmetas())
 #domain.addmeta(mid,cvar)
