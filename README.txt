@@ -2,13 +2,13 @@ fragmenter.py
 	Takes an input file containing SMILES codes and finds frequent fragments in them
 	Arguments:
 	-s file		(specifies an input file(default "smiles.tab") containing SMILES codes. Can be a tab delim. file
-			with SMILES as a second column or a simple txt file containg SMILES string
+			with SMILES as a second column or a simple txt file containg SMILES strings
 			seperated with newline)
 	-a attrName	(the name of the attribute that contains the smiles codes in the input file)
 	-o file		(specifies an output file (default "fragments.txt") where it will print one fragment code per line)
 	-f freq		(specifies the required frequency for the fragments (default 0.4))
 	Example:
-	python fragmenter.py -s smiles.tab -o fragmentcodes.txt -f 0.4
+	python fragmenter.py -s smiles.tab -a SMILES -o fragmentcodes.txt -f 0.4
 
 fragment_mapper.py
 	Takes an input file containg SMILES codes of chemicals and an file contating fragment codes. Outputs an 
