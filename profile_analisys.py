@@ -1,6 +1,6 @@
 import orange
 import go
-import orngChem
+import orngChem_Old as orngChem
 import sys, getopt
 
 smilesFilename="smiles.tab"

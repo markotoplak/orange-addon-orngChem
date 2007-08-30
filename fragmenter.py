@@ -1,5 +1,5 @@
 import orange
-import orngChem
+import orngChem_Old as orngChem
 import getopt
 import sys
 

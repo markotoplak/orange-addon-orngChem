@@ -1,5 +1,5 @@
 import orange
-import orngChem
+import orngChem_Old as orngChem
 import sys, getopt
 
 smilesFilename="smiles.tab"
@@ -29,7 +29,7 @@ mid=orange.newmetaid()
 cvar=orange.StringVariable("chemical")
 vars=smilesData.domain.attributes+vars+(smilesData.domain.classVar and [smilesData.domain.classVar] or [])
 
-domain=orange.Domain(vars,0)
+domain=orange.Domain(vars,1)
 domain.addmetas(smilesData.domain.getmetas())
 #domain.addmeta(mid,cvar)
 table=orange.ExampleTable(domain)
