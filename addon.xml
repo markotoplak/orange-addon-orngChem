@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><OrangeAddOn> 
+    <architecture>1</architecture> <!-- Mandatory. Value must be '1' (without
+                                        quotes). -->
+
+	<id>e1388908-2239-4680-8aa9-049a94a67ede-a2e433</id>
+		<!-- Mandatory. GUID that uniquely identifies this add-on (but
+		     remains the same between different versions of it). Must
+		     be lowercase, contain dashes on appropriate positions and
+		     contain leading zeros!
+		     DO NOT FORGET TO GENERATE AN UNIQUE GUID FOR EACH NEW
+		     ADDON! DO NOT COPY&PASTE THIS ONE! -->
+
+	<name>orngChem</name>	<!-- Mandatory. A meaningful display
+					     name of this add-on. -->
+
+	<version>1</version>
+		<!-- Mandatory. Must be dot-separated integer values. The
+		     first component is the most important etc., and each
+		     component must be an integer. Therefore 17.5 is greater
+		     than 16.999 and 1.10 is greater than 1.2. VERSION MUST
+		     INCREASE OVER TIME FOR THE AUTOMATIC UPDATE TO WORK. -->
+
+	<meta>				<!-- Mandatory. -->
+		<description>.</description>
+		<tags>			<!-- Optional. -->
+			
+		<tag>text</tag></tags>
+
+		<authors>				<!-- Optional. -->
+			<!-- May contain multiple organization, creator and
+			     contributor nodes. -->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		<organization>Artificial Intelligence Laboratory - Faculty of computer and information science, University of Ljubljana</organization><organization>Faculty of Electrical Engineering and Computing, University of Zagreb, Croatia</organization><organization>IRISA, Université Rennes 1, Rennes, France</organization><organization>Université Lyon, ERIC-Lyon2, Bron Cedex, France</organization><contributor>Bojana Dalbelo Bašić</contributor><contributor>Saša Petrović</contributor><contributor>Frane Šarić</contributor><contributor>Mladen Kolar</contributor><contributor>Annie Morin</contributor><contributor>Jean-Hugues Chauchat</contributor></authors>
+    </meta>
+
+	<preferredDirectory>Text</preferredDirectory>
+		<!--   Optional; if absent, the value of 'name' tag is used.
+		       The add-on is unpacked in a directory with this name under
+		       the add-ons directory in Orange installation.
+		       If this directory already exists when installation of
+		       the add-on takes place, Orange creates a derivate of it
+		       (" (#)" is appended, where # is the first available
+		       integer from 2 on.) -->
+
+</OrangeAddOn>
+
+
+
